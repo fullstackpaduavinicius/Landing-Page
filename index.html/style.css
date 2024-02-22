@@ -1,0 +1,110 @@
+
+#menusuperior {
+    position: relative;
+    text-align: center;
+    width: 1024px;
+    height: 72px; /* Altura total das frases */
+}
+
+#titulomenusuperior {
+    position: absolute;
+    top: 206px;
+    left: 62px;
+    width: 1024px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: white;
+}
+
+#legendamenusuperior {
+    position: absolute;
+    top: 320px;
+    left: 70px;
+    width: 1024px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+#menuinformacional{
+    width: 1440px
+    height 229px
+    margin -42px
+    left -656px
+
+}
+
+.container {
+    display: flex; /* Use flexbox para alinhar os itens */
+    align-items: center; /* Centralize verticalmente os itens */
+    justify-content: space-between; /* Distribua o espaço entre os itens */
+}
+
+.texto {
+    width: 735px; /* Define a largura do texto */
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.imagem {
+    width: 510px; /* Define a largura da imagem */
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.texto-grande{
+    font-size: 26px;
+}
+.titulo-formulario {
+    color: rgb(253, 253, 253); /* Define a cor do texto como azul */
+}
+.fundo-preto {
+    width: 100%; /* Defina a largura do fundo preto conforme necessário */
+    height: 100vh; /* Defina a altura do fundo preto conforme necessário */
+    background-image: url('imagens/fundopretoformulario.jpg'); /* Adicione a imagem de fundo */
+    background-size: cover; /* Garanta que a imagem cubra todo o fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    text-align: center;
+    color: white; /* Define a cor do texto como branco */
+}
+
+.input-group {
+    margin-top: 20px; /* Adicione espaçamento acima dos inputs conforme necessário */
+}
+input{
+    width: 431px;
+    height: 40px;
+    background-color: #d3d3d3;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.fale-conosco {
+    width: 286px;
+    height: 74px;
+    position: absolute;
+    top: 1955px;
+    left: 577px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(192, 114, 18, 1);
+
+    color: white; /* Cor do texto do botão */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    cursor: pointer; /* Mostra um cursor de apontar ao passar o mouse */
+}
